@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon Social Solutions Services</title>
+    <title>Horiseon</title>
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
@@ -18,22 +18,23 @@
             </ul>
         </nav>
     </header>
-
+<!--the figure element contains our "hero" or topmost, background, image-->
     <figure class="hero" alt="team meeting"></figure>
+<!--the content class is our parent for each of the articles, allowing CSS to affect all articles-->
     <section class="content">
-        <article class="search-engine-optimization">
+        <article id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization elements on a journal"/>
             <h2>Search Engine Optimization</h2>
             <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
         </article>
-
-        <article id="online-reputation-management" class="online-reputation-management">
+<!--the id element connects this article to the corresponding nav item and it is referenced in style.css-->
+        <article id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Laptop screen displaying an increasing REPUTATION graph"/>
             <h2>Online Reputation Management</h2>
             <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
         </article>
-
-        <article id="social-media-marketing" class="social-media-marketing">
+<!--the id element connects this article to the corresponding nav item and it is referenced in style.css-->
+        <article id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A table surrounded by people with laptops and coffee. The table is covered  UI elements"/>
             <h2>Social Media Marketing</h2>
             <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
@@ -41,6 +42,7 @@
 
     </section>
 
+<!--the benefits class is our parent for each of the asides, allowing CSS to affect all asides-->
 
     <section class="benefits">
         <aside class="benefit-lead">
