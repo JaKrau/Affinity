@@ -15,6 +15,8 @@ git clone git@github.com:JaKrau/Affinity.git
 The site features three nav items, use these or scroll down to view all content.
   
    ![site screenshot](/assets/screenshot/Screenshot.png?raw=true "nav items")
+   
+Link to deployed site: https://jakrau.github.io/Affinity/
 
 ## Credits
 
